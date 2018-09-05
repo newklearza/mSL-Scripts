@@ -9,6 +9,9 @@ Index of Scripts:
 <ul>
   <li>Vote.mrc</li>
   <li>Language Flood Control.mrc</li>
+  <li>Lottery.mrc</li>
+  <li>Fight.mrc</li>
+  <li>Dice.mrc</li>
 </ul>
 
 If You wish to collaborate on IRC or see these scripts in action, please click
