@@ -1,4 +1,17 @@
-# vokadok
-Heuristic's Much!
-.mrc Files used in various bots and scripts.
-The Ultimate goal is to trial and error with Automated and Artificial Intelligence in the form of .mrc files.
+<h1># vokadok - mSL Scripts</h1>
+
+<p><strong>Contained are various mSL Scripts that are useful and have potential for future development</strong></p> 
+
+<p>Please note: These mSL scripts require <a href="https://www.mirc.co.uk/">mIRC</a> to run</p>
+ 
+Index of Scripts:
+
+<ul>
+  <li>Vote.mrc</li>
+  <li>Language Flood Control.mrc</li>
+</ul>
+
+If You wish to collaborate on IRC or see these scripts in action, please see below
+<a href="https://www.irccloud.com/invite?channel=%23ChillRoom&amp;hostname=irc.atrum.org&amp;port=6697&amp;ssl=1" target="_blank"><img src="https://img.shields.io/badge/IRC-%23ChillRoom-1e72ff.svg?style=plastic"  height="20"></a>
+
+Or alternatively, if you make use of your own IRC client, connect to: irc.atrum.org -j #chillroom
