@@ -1,4 +1,4 @@
-on *:TEXT:!ds*:%chan,#automate: {
+on *:TEXT:!ds*:#: {
   if (%dicestats. [ $+ [ $address($nick,2) ] ] >= 5) { halt }
   if (%dicestats. [ $+ [ $address($nick,2) ] ] == 3) { notice $nick You have one more !ds use within a 5 minute period }
   inc -u300 %dicestats. [ $+ [ $address($nick,2) ] ] 1
@@ -21,7 +21,7 @@ on *:TEXT:!ds*:%chan,#automate: {
   else { .msg $chan No Dice Roll record for $2 $+ , $nick maybe ask $2 to use !dice ? }
 }
 
-on *:TEXT:!dice*:%chan,#automate: {
+on *:TEXT:!dice*:#: {
   if (%dice. [ $+ [ $address($nick,2) ] ] == 1) { .msg $chan $nick I am still waiting for your Arch Enemy too roll | inc -u30 %dice. [ $+ [ $address($nick,2) ] ] 1 | halt }
   if ($2 >= 1000) { msg $chan $nick keep it under 1000 | halt }
   if (%floodd. [ $+ [ $address($nick,2) ] ] >= 3) { halt }
