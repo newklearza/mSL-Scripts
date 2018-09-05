@@ -1,5 +1,5 @@
 *********************NEW VOTING SYSTEM BEGIN*******************************
-on 1:TEXT:!vote*:%chan: {
+on 1:TEXT:!vote*:#: {
   if (%vlimit. [ $+ [ $address($nick,2) ] ] == 2) { halt }
   inc -u36000 %vlimit. [ $+ [ $address($nick,2) ] ] 1 
   if (%vote.used. [ $+ [ $address($nick,2) ] ] == 1) { halt }
