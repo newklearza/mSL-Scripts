@@ -11,7 +11,7 @@ Index of Scripts:
   <li>Language Flood Control.mrc</li>
 </ul>
 
-If You wish to collaborate on IRC or see these scripts in action, please see below
+If You wish to collaborate on IRC or see these scripts in action, please click
 <a href="https://www.irccloud.com/invite?channel=%23ChillRoom&amp;hostname=irc.atrum.org&amp;port=6697&amp;ssl=1" target="_blank"><img src="https://img.shields.io/badge/IRC-%23ChillRoom-1e72ff.svg?style=plastic"  height="20"></a>
 
-Or alternatively, if you make use of your own IRC client, connect to: irc.atrum.org -j #chillroom
+Or alternatively, if you make use of your own IRC client, connect to: irc://irc.atrum.org:6667/#chillroom
